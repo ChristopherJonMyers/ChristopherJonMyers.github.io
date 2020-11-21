@@ -10,11 +10,7 @@ html {
     background-size: cover;
 }
 
-@media only screen and (max-width:749px){
-    .parallax-image{
-        background-attachment: inherit;
-    }
-}
+
 
 .text-shadow {
     text-shadow: 0 0.25rem 0.25rem rgba(0,0,0,0.5);

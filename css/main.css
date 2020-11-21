@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    display: block;
   }
 .parallax-image{ 
     background-attachment: fixed;
@@ -16,4 +18,9 @@ html {
 
 .text-shadow {
     text-shadow: 0 0.25rem 0.25rem rgba(0,0,0,0.5);
+}
+
+body{
+    overflow-x: hidden;
+    display: block;
 }

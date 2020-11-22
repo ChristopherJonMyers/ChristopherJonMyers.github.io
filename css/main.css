@@ -13,5 +13,5 @@ html {
 
 
 .text-shadow {
-    text-shadow: 0 0.25rem 0.25rem rgba(0,0,0,0.5);
+    text-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.75);
 }

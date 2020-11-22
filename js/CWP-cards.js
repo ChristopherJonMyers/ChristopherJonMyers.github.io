@@ -1,14 +1,15 @@
 
 
 function writeCards(){
-    //for live
-    //let poemjson = $.getJSON("../poems/CWPP.json");
+    
+    let url = 'https://raw.githubusercontent.com/ChristopherJonMyers/christopherjonmyers.github.io/master/poetry/poems/CWPP.json';
 
-    //for local
-    let poemsjson = $.getJSON("https://raw.githubusercontent.com/ChristopherJonMyers/christopherjonmyers.github.io/master/poetry/poems/CWPP.json");
-    for( i in poemsjson){
-        
-    }
+    fetch(url)
+    .then(res => res.json())
+    .then((out) => {
+            console.log('Checkout this JSON! ', out);
+    })
+    .catch(err => { throw err });
 }
 
 writeCards();

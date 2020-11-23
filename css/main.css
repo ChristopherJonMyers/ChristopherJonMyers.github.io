@@ -12,3 +12,9 @@ html {
 .text-shadow {
     text-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.75);
 }
+
+@media only screen and (max-width:749px) {
+    .parallax-image {
+      background-attachment: inherit;
+    }
+  }

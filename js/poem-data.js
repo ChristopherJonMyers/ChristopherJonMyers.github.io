@@ -1,7 +1,7 @@
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 const poemName = params.get('name');
-const page = params.get('page');
+const project = params.get('page');
 
 function writeTitle(){
     document.getElementById('Title').innerHTML = poemName;
@@ -13,8 +13,10 @@ function writePoem(page){
     switch(page){
         case 'CWPP':
             url = 'https://raw.githubusercontent.com/ChristopherJonMyers/christopherjonmyers.github.io/master/poetry/poems/CWPP.json';
+            break;
         case 'misc':
             url = 'https://raw.githubusercontent.com/ChristopherJonMyers/christopherjonmyers.github.io/master/poetry/poems/misc.json';
+            break;
     }
 
     $.getJSON(url, function(data) {
@@ -27,4 +29,4 @@ function writePoem(page){
     writeTitle();
 }
 
-writePoem(page);
+writePoem(project);

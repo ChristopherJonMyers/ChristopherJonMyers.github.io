@@ -1,6 +1,6 @@
 function writeCards(){
     
-    let url = 'https://raw.githubusercontent.com/ChristopherJonMyers/christopherjonmyers.github.io/master/poetry/poems/HTWP/Week1.json';
+    let url = 'https://raw.githubusercontent.com/ChristopherJonMyers/christopherjonmyers.github.io/master/poetry/poems/Week1.json';
 
     $.getJSON(url, function(data) {
         $.each(data, function(index){
@@ -8,7 +8,7 @@ function writeCards(){
                                                                     +'<div class="card mx-auto shadow" style="width: 18rem;">'
                                                                     +'<div class="card-body">'
                                                                         +'<h5 class="card-title">' + data[index].Title + '</h5>' 
-                                                                        +'<a href="../poems/poems.html?page=CWPP&name=' + data[index].Title + '" class="btn btn-primary float-right">Read</a>'
+                                                                        +'<a href="../../poems/poems.html?page=Week1&name=' + data[index].Title + '" class="btn btn-primary float-right">Read</a>'
                                                                         +'<div/><div/><div/><div/>';
 
         });

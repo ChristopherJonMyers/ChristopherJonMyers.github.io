@@ -14,9 +14,6 @@ function writePoem(page){
         case 'CWPP':
             url = 'https://raw.githubusercontent.com/ChristopherJonMyers/christopherjonmyers.github.io/master/poetry/poems/CWPP.json';
             break;
-        case 'misc':
-            url = 'https://raw.githubusercontent.com/ChristopherJonMyers/christopherjonmyers.github.io/master/poetry/poems/misc.json';
-            break;
         case 'Week1':
             url = 'https://raw.githubusercontent.com/ChristopherJonMyers/christopherjonmyers.github.io/master/poetry/poems/Week1.json';
             break;

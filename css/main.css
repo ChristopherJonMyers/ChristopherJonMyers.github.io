@@ -10,7 +10,7 @@ html {
     background-size: cover;
 }
 .text-shadow {
-    text-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.75);
+    text-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 1);
 }
 
 @media only screen and (max-width:749px) {

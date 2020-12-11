@@ -48,3 +48,4 @@ function writeOther(){
 
 writePoem();
 writeOther();
+setBackURL();

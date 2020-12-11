@@ -21,7 +21,7 @@ function writeTitle(){
     document.getElementById('Title').innerHTML = poemName;
 }
 
-function setBackURL(backurl){
+function setBackURL(){
     document.getElementById('Back-Button').href = backurl;
 }
 
